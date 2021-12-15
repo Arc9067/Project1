@@ -1,0 +1,565 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+/* navbar */
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.innernav{
+    height: 70px;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.innernav1_logo{
+    height: 70px;
+    width: 15%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_texts{
+    height: 70px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    margin-left: 45%;
+    /* justify-content: space-evenly; */
+}
+
+.nav_texts1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ul{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 12px;
+    list-style: none;
+}
+
+li{
+    margin-left: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* navbar */
+
+/* section */
+.section{
+    height: 500px;
+    width: 100%;
+    /* background-color:red; */
+    background-image: url(../media/mainbg1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: cover; */
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.innersec1{
+    height: 300px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 40px;
+    /* box-shadow: 5px 5px 5px grey; */
+}
+
+.text_innersect{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h3{
+    padding-left: 10px;
+    /* text-align: center; */
+    padding-top: 20px;
+}
+
+.btn{
+    margin-top: 40px;
+    outline: none;
+    width: 200px ;
+    height:  50px;
+    background-color: black;
+    /* position: relative; */
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 10px;
+}
+/* section */
+
+.product{
+    height: 600px;
+    width: 100%;
+    background-color: #d7d7d7 ;
+}
+
+.product_text{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    /* display: flex; */
+}
+
+.img{
+    display: flex;
+    height: 550px;
+    width: 90%;
+    /* background-color: red; */
+    justify-content: space-evenly-;
+    align-items: center;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+.img2{
+    width: 20%; 
+    height: 400px;
+    /* background-color: blue; */
+    margin-left: 5%;
+    background-image: url(../media/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size:110%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end 
+
+}
+
+.img2:nth-child(1){
+    background-image: url(../media/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.img2:nth-child(2){
+    background-image: url(../media/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2:nth-child(3){
+    background-image: url(../media/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.inner_img1{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, rgb(61, 167, 61), blue, alpha);
+
+}
+
+.inner_im21{
+    height: 40%;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    /* display: flex; */
+
+    animation-name: Atana;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+p{
+    font-size: 13px;
+}
+
+.inner_im21:hover{
+    height: 90%;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #1d0d12;
+
+}
+
+@keyframes Atana {
+    20%{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+.banner{
+    height: 500px;
+    width: 100%;
+    background-image: url(../media/bg1.jpg);
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+
+}
+
+.headbg{
+    height: 500px;
+    width: 400%;
+    /* background-color: green; */
+    display: flex;
+    /* overflow: hidden; */
+
+    animation-name: Yes;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    /* animation-delay: 10s; */
+
+}
+
+.bg{
+    height: 500px;
+    width: 25%;
+    /* background-color: yellow; */
+    /* font-size: 200px; */
+}
+.bg:nth-child(1){
+    background-image: url(../media/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.bg:nth-child(2){
+    background-image: url(../media/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bg:nth-child(3){
+    background-image: url(../media/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg:nth-child(4){
+    background-image: url(../media/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+@keyframes Yes {
+    25%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left:-400%;
+    }
+}
+
+.form{
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.formtext{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.form1:nth-child(1){
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+}
+
+.form1:nth-child(3){
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+}
+
+.form1:nth-child(2){
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+}
+
+.form1_2{
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+}
+
+textarea{
+    height: 80px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+}
+
+.form1::placeholder{
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+textarea::placeholder{
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-top: 10px;
+}
+
+button{
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    outline: none;
+    border: 1px solid #546d7c;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mainbg{
+    height: 500px;
+    width: 100%;
+    /* background-image: url(../media/mainbg2.jpg); */
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: bottom;
+    background-size: cover;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 200px;
+    outline: 2px black;
+}
+
+.yes{
+    padding-top: 130px;
+    font-weight: 200;
+}
+
+.form3{
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    height: 40px;
+    width: 80%;
+    /* margin-left: 15%; */
+    align-content: center;
+    color: #fff;
+    text-indent: 5px;
+}
+
+.form3::placeholder{
+    text-indent: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub{
+    height: 40px;
+    width: 10%;
+    text-align: center;
+    /* align-content: center; */
+    margin-left: 5%;
+    border-color: #fff;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(9, 8, 8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.quicklinks{
+    height: 350px;
+    width: 30%;
+    /* background-color: rgb(88, 54, 54); */
+}
+
+.text_footer{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.footer_ul{
+    list-style: none;
+    /* row-gap: 15px; */
+}
+
+.footer_li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    font-weight: lighter;
+}
+
+h5{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    /* text-indent: 5px; */
+    padding-left: 15px;
+}
+
+.footer_btn{
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    right: 70px;
+    border-color: #fff;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.text_footer1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.end{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+
+    animation-name: Atanda;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes Atanda {
+    50%{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+    }
+
+    100%{
+        background-color: black;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        padding-top: 10px;
+        text-align: center;
+    
+    }
+}
